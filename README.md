@@ -1,10 +1,14 @@
 # jsbsim-docker
 
-A Docker container for [JSBSim](http://jsbsim.sourceforge.net/).
+This is a Docker container for [JSBSim](http://jsbsim.sourceforge.net/). 
 
-# How to
+JSBSim is an open source implemenation of a flight dynamics model. It is the default flight dynamics model for [FlightGear](http://www.flightgear.org/), an open source flight simulator.
 
-Clone and change into repository directory, then:
+
+
+# How to use
+
+Change into repository directory and:
 
     $ docker build -t="jsbsim" .
     $ docker run <args>`
