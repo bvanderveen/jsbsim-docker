@@ -11,9 +11,9 @@ JSBSim is an open source implemenation of a flight dynamics model. It is the def
 Change into repository directory and:
 
     $ docker build -t="jsbsim" .
-    $ docker run <args>`
+    $ docker run -v .:/var/jsbsim <args>`
 
-Refer to the [JSBSim documentation](http://jsbsim.sourceforge.net/documentation.html) for usage details.
+Refer to the [JSBSim documentation](http://jsbsim.sourceforge.net/documentation.html) for usage details. Simulation output files will be written  into `/var/jsbsim` in the container (current directory on the host). 
 
 # Notes
 
