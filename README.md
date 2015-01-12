@@ -9,9 +9,9 @@ JSBSim is an open source implemenation of a flight dynamics model. It is the def
 Change into repository directory and:
 
 	$ ./build.sh
-    $ ./jsbsim.sh <args>
+    $ ./jsbsim.sh
 
-Refer to the [JSBSim documentation](http://jsbsim.sourceforge.net/documentation.html) for usage details. Simulation output files will be written  into `/var/jsbsim` in the container (current directory on the host). 
+Refer to the [JSBSim documentation](http://jsbsim.sourceforge.net/documentation.html) for usage details. Simulation output files will be written into `/var/jsbsim` in the container (current directory on the host). 
 
 # Notes
 
