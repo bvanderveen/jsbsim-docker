@@ -3,7 +3,7 @@
 ./build-jsbsim.sh
 
 cd /opt/build
-ls -al /opt/jsbsim
 
+echo "building wrapper"
 cmake /opt/src
 make
