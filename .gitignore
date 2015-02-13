@@ -1,1 +1,4 @@
 .vagrant
+build
+build-output
+sim/JSBSim-1.0
