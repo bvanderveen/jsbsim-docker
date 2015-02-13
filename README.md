@@ -12,7 +12,7 @@ Change into repository directory and:
 
 	$ ./build.sh
 
-This will compile JSBSim, followed by the wrapper, within a Docker container. The build output ends up in `./jsbsim
+This use a docker container to compile JSBSim, followed by the wrapper. The build output ends up in `build/`.
 
 Run the wrapper with:
 
