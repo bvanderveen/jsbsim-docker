@@ -20,6 +20,10 @@ Run the wrapper with:
 
 This will run the simulator process in a Docker container.
 
+# How to talk to it
+
+Eventually you'll be able to open up a socket to this thing and send it effector values, ask it to iterate forward in time, and then receive the next state of the simulation back from it. This isn't implemented yet. 
+
 # Notes
 
 The latest source of JSBSim (1.0.rc2) is included in the repository as a tarball.
